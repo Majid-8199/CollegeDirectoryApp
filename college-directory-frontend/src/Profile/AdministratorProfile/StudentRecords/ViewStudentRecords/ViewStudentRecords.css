@@ -1,0 +1,105 @@
+.head{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+h1{
+    margin-left: -1200px;
+    color: rgb(55, 97, 159);
+}
+.tbuttons{
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: end;
+}
+.search{
+    margin-left: 10px;
+    display: flex;
+    width: 400px;
+}
+.deletebutton{
+    width: 200px; 
+    height: 40px;
+    margin-right: 20px;
+    color: white;
+    background-color: rgb(55, 97, 159);
+    border: none;
+}
+.deletebutton:hover{
+    color: rgb(55, 97, 159);
+    background-color: white;
+}
+.deletebutton:active{
+    background-color: rgb(55, 97, 159);
+    color: white;
+}
+.bottom{
+    background-color: rgb(55, 97, 159);
+}
+tr,table{
+    height: 40px;
+    width: 100%;
+}
+td{
+    padding-left: 10px;
+}
+thead{
+    font-style: bold;
+}
+
+table,td,th{
+    color: white;
+    border: 2px solid rgb(255, 255, 255);
+    border-collapse: collapse;
+}
+button{
+    cursor: pointer;
+}
+.actionbuttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.deleteid,.updateid{
+    height: 25px;
+    width: 70px;
+    margin-right: 10px;
+    background-color: white;
+    border:none;
+    color: rgb(55, 97, 159);
+}
+.deleteid:hover,.updateid:hover{
+    background-color: rgb(55, 97, 159);
+    color: white;
+}
+.deleteid:active,.updateid:active{
+    color: rgb(55, 97, 159);
+    background-color: white;
+}
+.search button{
+    height: 30px;
+    width: 130px;
+    color: white;
+    background-color: rgb(55, 97, 159);    
+    padding-bottom: 30px;
+    border: none;
+}
+.search button:hover{
+    color: rgb(55, 97, 159);
+    background-color: white;
+}
+.search button:active{
+    background-color: rgb(55, 97, 159);
+    color: white;
+}
+.search input{
+    height: 40px;
+    width: 200px;
+    margin-right: 5px;
+    border: 1px solid rgb(55, 97, 159);
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+}
